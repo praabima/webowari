@@ -1,5 +1,6 @@
 @extends('user.layout.main')
 
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Male_Fashion Template">
@@ -124,7 +125,10 @@
         </div>
     </header>
     <!-- Header Section End -->
+=======
+>>>>>>> 566400dffd984bdab9787fc0f44435863fafb3f0
 
+@section('content')
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="hero__slider owl-carousel">
@@ -705,17 +709,6 @@
     </div>
     <!-- Search End -->
 
-    <!-- Js Plugins -->
-    <script src="{{ asset('frontend/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/jquery.nicescroll.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/jquery.countdown.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/jquery.slicknav.js') }}"></script>
-    <script src="{{ asset('frontend/js/mixitup.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/main.js') }}"></script>
-</body>
+    @endsection
 
 </html>
