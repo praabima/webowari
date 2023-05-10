@@ -1,3 +1,7 @@
+
+<<<<<<< HEAD
+@extends('user.layout.main')
+=======
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -7,7 +11,7 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>Owari Store | Official</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
@@ -43,8 +47,7 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                    alt=""></a>
+            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
             <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                 <span>0</span></a>
@@ -112,8 +115,7 @@
                         <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
                                 alt=""></a>
                         <a href="#"><img src="{{ asset('frontend/img/icon/heart.pn') }}g" alt=""></a>
-                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}"
-                                alt="">
+                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                             <span>0</span></a>
                         <div class="price">Rp0.00</div>
                     </div>
@@ -123,7 +125,9 @@
         </div>
     </header>
     <!-- Header Section End -->
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5
 
+@section('content')
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-option">
         <div class="container">
@@ -162,12 +166,11 @@
                                 <tr>
                                     <td class="product__cart__item">
                                         <div class="product__cart__item__pic">
-                                            <img src="{{ asset('frontend/img/shopping-cart/cart-1.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('frontend/img/shopping-cart/cart-1.jpg') }}" alt="">
                                         </div>
                                         <div class="product__cart__item__text">
                                             <h6>T-shirt Contrast Pocket</h6>
-                                            <h5>$98.49</h5>
+                                            <h5>Rp98.49</h5>
                                         </div>
                                     </td>
                                     <td class="quantity__item">
@@ -177,18 +180,17 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="cart__price">$ 30.00</td>
+                                    <td class="cart__price">Rp 30.00</td>
                                     <td class="cart__close"><i class="fa fa-close"></i></td>
                                 </tr>
                                 <tr>
                                     <td class="product__cart__item">
                                         <div class="product__cart__item__pic">
-                                            <img src="{{ asset('frontend/img/shopping-cart/cart-2.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('frontend/img/shopping-cart/cart-2.jpg') }}" alt="">
                                         </div>
                                         <div class="product__cart__item__text">
                                             <h6>Diagonal Textured Cap</h6>
-                                            <h5>$98.49</h5>
+                                            <h5>Rp98.49</h5>
                                         </div>
                                     </td>
                                     <td class="quantity__item">
@@ -198,18 +200,17 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="cart__price">$ 32.50</td>
+                                    <td class="cart__price">Rp 32.50</td>
                                     <td class="cart__close"><i class="fa fa-close"></i></td>
                                 </tr>
                                 <tr>
                                     <td class="product__cart__item">
                                         <div class="product__cart__item__pic">
-                                            <img src="{{ asset('frontend/img/shopping-cart/cart-3.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('frontend/img/shopping-cart/cart-3.jpg') }}" alt="">
                                         </div>
                                         <div class="product__cart__item__text">
                                             <h6>Basic Flowing Scarf</h6>
-                                            <h5>$98.49</h5>
+                                            <h5>Rp98.49</h5>
                                         </div>
                                     </td>
                                     <td class="quantity__item">
@@ -219,18 +220,17 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="cart__price">$ 47.00</td>
+                                    <td class="cart__price">Rp 47.00</td>
                                     <td class="cart__close"><i class="fa fa-close"></i></td>
                                 </tr>
                                 <tr>
                                     <td class="product__cart__item">
                                         <div class="product__cart__item__pic">
-                                            <img src="{{ asset('frontend/img/shopping-cart/cart-4.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('frontend/img/shopping-cart/cart-4.jpg') }}" alt="">
                                         </div>
                                         <div class="product__cart__item__text">
                                             <h6>Basic Flowing Scarf</h6>
-                                            <h5>$98.49</h5>
+                                            <h5>Rp98.49</h5>
                                         </div>
                                     </td>
                                     <td class="quantity__item">
@@ -240,7 +240,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="cart__price">$ 30.00</td>
+                                    <td class="cart__price">Rp 30.00</td>
                                     <td class="cart__close"><i class="fa fa-close"></i></td>
                                 </tr>
                             </tbody>
@@ -270,8 +270,8 @@
                     <div class="cart__total">
                         <h6>Cart total</h6>
                         <ul>
-                            <li>Subtotal <span>$ 169.50</span></li>
-                            <li>Total <span>$ 169.50</span></li>
+                            <li>Subtotal <span>Rp 169.50</span></li>
+                            <li>Total <span>Rp 169.50</span></li>
                         </ul>
                         <a href="#" class="primary-btn">Proceed to checkout</a>
                     </div>
@@ -291,8 +291,7 @@
                             <a href="#"><img src="{{ asset('frontend/img/logow.png') }}" alt=""></a>
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
-                        <a href="#"><img src="{{ asset('frontend/frontend/img/payment.png') }}"
-                                alt=""></a>
+                        <a href="#"><img src="{{ asset('frontend/frontend/img/payment.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
@@ -336,11 +335,15 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p>Copyright ©
                             <script>
-                                document.write(new Date().getFullYear());
+                            document.write(new Date().getFullYear());
                             </script>2020
+<<<<<<< HEAD
                             All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                target="_blank">Colorlib</a>
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+=======
+                            Owari Store | Official <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
@@ -360,6 +363,9 @@
         </div>
     </div>
     <!-- Search End -->
+<<<<<<< HEAD
+@endsection
+=======
 
     <!-- Js Plugins -->
     <script src="{{ asset('frontend/js/jquery-3.3.1.min.js') }}"></script>
@@ -375,3 +381,4 @@
 </body>
 
 </html>
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5

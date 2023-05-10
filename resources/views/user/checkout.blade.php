@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@extends('user.layout.main')
+=======
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -7,7 +10,7 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>Owari Store | Official</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
@@ -44,8 +47,7 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                    alt=""></a>
+            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
             <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                 <span>0</span></a>
@@ -113,8 +115,7 @@
                         <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
                                 alt=""></a>
                         <a href="#"><img src="{{ asset('frontend/img/icon/heart.pn') }}g" alt=""></a>
-                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}"
-                                alt="">
+                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                             <span>0</span></a>
                         <div class="price">Rp0.00</div>
                     </div>
@@ -124,7 +125,9 @@
         </div>
     </header>
     <!-- Header Section End -->
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5
 
+@section('content')
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-option">
         <div class="container">
@@ -151,49 +154,13 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
-                            <h6 class="coupon__code"><span class="icon_tag_alt"></span> Have a coupon? <a
-                                    href="#">Click
-                                    here</a> to enter your code</h6>
-                            <h6 class="checkout__title">Billing Details</h6>
+                            <h6 class="coupon__code"><span class="icon_tag_alt"></span> Cek kembali barangmu sebelum
+                                melakukan pembayaran</h6>
+                            <h6 class="checkout__title">Details Pembayaran</h6>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="checkout__input">
-                                        <p>Fist Name<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Last Name<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="checkout__input">
-                                <p>Country<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Address<span>*</span></p>
-                                <input type="text" placeholder="Street Address" class="checkout__input__add">
-                                <input type="text" placeholder="Apartment, suite, unite ect (optinal)">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Town/City<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Country/State<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="checkout__input">
-                                <p>Postcode / ZIP<span>*</span></p>
-                                <input type="text">
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Phone<span>*</span></p>
+                                        <p>Nama Penerima<span>*</span></p>
                                         <input type="text">
                                     </div>
                                 </div>
@@ -204,30 +171,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="checkout__input__checkbox">
-                                <label for="acc">
-                                    Create an account?
-                                    <input type="checkbox" id="acc">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <p>Create an account by entering the information below. If you are a returning customer
-                                    please login at the top of the page</p>
-                            </div>
                             <div class="checkout__input">
-                                <p>Account Password<span>*</span></p>
+                                <p>No.Telp<span>*</span></p>
                                 <input type="text">
                             </div>
+                            <div class="checkout__input">
+                                <p>Alamat<span>*</span></p>
+                                <input type="text" placeholder="Street Address" class="checkout__input__add">
+                                <input type="text" placeholder="Apartment, suite, unite ect (optinal)">
+                            </div>
+
+
+
+
                             <div class="checkout__input__checkbox">
                                 <label for="diff-acc">
-                                    Note about your order, e.g, special noe for delivery
+                                    Minta Nota
                                     <input type="checkbox" id="diff-acc">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="checkout__input">
                                 <p>Order notes<span>*</span></p>
-                                <input type="text"
-                                    placeholder="Notes about your order, e.g. special notes for delivery.">
+                                <input type="text" placeholder="Tinggalkan Catatan">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
@@ -287,8 +253,7 @@
                             <a href="#"><img src="{{ asset('frontend/img/logow.png') }}" alt=""></a>
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
-                        <a href="#"><img src="{{ asset('frontend/frontend/img/payment.png') }}"
-                                alt=""></a>
+                        <a href="#"><img src="{{ asset('frontend/frontend/img/payment.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
@@ -332,11 +297,10 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p>Copyright ©
                             <script>
-                                document.write(new Date().getFullYear());
+                            document.write(new Date().getFullYear());
                             </script>2020
-                            All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                target="_blank">Colorlib</a>
+                            Owari Store | Official <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Owari</a>
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
@@ -357,6 +321,9 @@
     </div>
     <!-- Search End -->
 
+<<<<<<< HEAD
+@endsection
+=======
     <!-- Js Plugins -->
     <script src="{{ asset('frontend/js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
@@ -371,3 +338,4 @@
 </body>
 
 </html>
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5

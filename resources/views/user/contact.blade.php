@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@extends('user.layout.main')
+=======
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -7,7 +10,7 @@
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>Owari Store | Official</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
@@ -42,8 +45,7 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                    alt=""></a>
+            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
             <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                 <span>0</span></a>
@@ -111,8 +113,7 @@
                         <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
                                 alt=""></a>
                         <a href="#"><img src="{{ asset('frontend/img/icon/heart.pn') }}g" alt=""></a>
-                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}"
-                                alt="">
+                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                             <span>0</span></a>
                         <div class="price">Rp0.00</div>
                     </div>
@@ -122,7 +123,9 @@
         </div>
     </header>
     <!-- Header Section End -->
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5
 
+@section('content')
     <!-- Map Begin -->
     <div class="map">
         <iframe
@@ -188,8 +191,7 @@
                             <a href="#"><img src="{{ asset('frontend/img/logow.png') }}" alt=""></a>
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
-                        <a href="#"><img src="{{ asset('frontend/frontend/img/payment.png') }}"
-                                alt=""></a>
+                        <a href="#"><img src="{{ asset('frontend/frontend/img/payment.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
@@ -233,11 +235,10 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p>Copyright ©
                             <script>
-                                document.write(new Date().getFullYear());
+                            document.write(new Date().getFullYear());
                             </script>2020
-                            All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                target="_blank">Colorlib</a>
+                            Owari Store | Official <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Owari</a>
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
@@ -257,6 +258,9 @@
         </div>
     </div>
     <!-- Search End -->
+<<<<<<< HEAD
+@endsection
+=======
 
     <!-- Js Plugins -->
     <script src="{{ asset('frontend/js/jquery-3.3.1.min.js') }}"></script>
@@ -272,3 +276,4 @@
 </body>
 
 </html>
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5

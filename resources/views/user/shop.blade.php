@@ -1,6 +1,8 @@
-<!DOCTYPE html>
-<html lang="zxx">
+@extends('user.layout.main')
 
+<<<<<<< HEAD
+@section('content')
+=======
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Male_Fashion Template">
@@ -41,8 +43,7 @@
 
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                    alt=""></a>
+            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/mg/icon/cart.png') }}" alt=""> <span>0</span></a>
             <div class="price">Rp0.00</div>
@@ -117,6 +118,7 @@
         </div>
     </header>
     <!-- Header Section End -->
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-option">
@@ -208,8 +210,8 @@
                                     <p>Sort by Price:</p>
                                     <select>
                                         <option value="">Low To High</option>
-                                        <option value="">$0 - $55</option>
-                                        <option value="">$55 - $100</option>
+                                        <option value="">High To Low</option>
+
                                     </select>
                                 </div>
                             </div>
@@ -223,8 +225,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -235,11 +236,7 @@
                                     <h6>Piqué Biker Jacket</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp67.24</h5>
                                     <div class="product__color__select">
@@ -262,10 +259,9 @@
                                     data-setbg="{{ asset('frontend/img/product/product-3.jpg') }}">
                                     <span class="label">Sale</span>
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="{{ asset('frontend/mg/icon/heart.png') }}"
-                                                    alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/mg/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/mg/icon/heart.png') }}" alt=""></a>
+                                        </li>
+                                        <li><a href="#"><img src="{{ asset('frontend/mg/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -276,11 +272,7 @@
                                     <h6>Multi-pocket Chest Bag</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp43.48</h5>
                                     <div class="product__color__select">
@@ -304,8 +296,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('rontend/img/icon/search.png') }}f"
@@ -316,11 +307,7 @@
                                     <h6>Diagonal Textured Cap</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp60.9</h5>
                                     <div class="product__color__select">
@@ -345,8 +332,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -357,11 +343,7 @@
                                     <h6>Ankle Boots</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp98.49</h5>
                                     <div class="product__color__select">
@@ -385,8 +367,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('rontend/img/icon/heart.png') }}f"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -397,11 +378,7 @@
                                     <h6>T-shirt Contrast Pocket</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp49.66</h5>
                                     <div class="product__color__select">
@@ -425,8 +402,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -437,11 +413,7 @@
                                     <h6>Basic Flowing Scarf</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp26.28</h5>
                                     <div class="product__color__select">
@@ -465,8 +437,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -477,11 +448,7 @@
                                     <h6>Piqué Biker Jacket</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp67.24</h5>
                                     <div class="product__color__select">
@@ -506,8 +473,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -518,11 +484,7 @@
                                     <h6>Multi-pocket Chest Bag</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp43.48</h5>
                                     <div class="product__color__select">
@@ -546,8 +508,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -558,11 +519,7 @@
                                     <h6>Diagonal Textured Cap</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp60.9</h5>
                                     <div class="product__color__select">
@@ -587,8 +544,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -599,11 +555,7 @@
                                     <h6>Ankle Boots</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp98.49</h5>
                                     <div class="product__color__select">
@@ -627,8 +579,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/mg/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/mg/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -639,11 +590,7 @@
                                     <h6>T-shirt Contrast Pocket</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp49.66</h5>
                                     <div class="product__color__select">
@@ -667,8 +614,7 @@
                                     <ul class="product__hover">
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
                                                     alt=""></a></li>
-                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                                    alt="">
+                                        <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                                 <span>Compare</span></a>
                                         </li>
                                         <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
@@ -679,11 +625,7 @@
                                     <h6>Basic Flowing Scarf</h6>
                                     <a href="#" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
                                     </div>
                                     <h5>Rp26.28</h5>
                                     <div class="product__color__select">
@@ -772,8 +714,8 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p>Copyright © Owari.cloth
                             <script>
-                                document.write(new Date().getFullYear());
-                            </script>2020
+                            document.write(new Date().getFullYear());
+                            </script>2023
                             All rights reserved |
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
@@ -793,6 +735,9 @@
         </div>
     </div>
     <!-- Search End -->
+<<<<<<< HEAD
+@endsection
+=======
 
     <!-- Js Plugins -->
     <script src="{{ asset('frontend/js/jquery-3.3.1.min.js') }}"></script>
@@ -808,3 +753,4 @@
 </body>
 
 </html>
+>>>>>>> a09911e24cee037014aacbd41aa90cd46f3f5ce5
