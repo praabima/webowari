@@ -35,21 +35,15 @@
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__option">
             <div class="offcanvas__links">
-                <a href="#">Sign in</a>
-                <a href="#">FAQs</a>
+                <a href="login.blade.php">Log in</a>
+
             </div>
             <div class="offcanvas__top__hover">
-                <span>Usd <i class="arrow_carrot-down"></i></span>
-                <ul>
-                    <li>USD</li>
-                    <li>EUR</li>
-                    <li>USD</li>
-                </ul>
+
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                    alt=""></a>
+            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
             <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                 <span>0</span></a>
@@ -116,8 +110,8 @@
                         <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
                                 alt=""></a>
                         <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
-                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}"
-                                alt=""> <span>0</span></a>
+                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
+                            <span>0</span></a>
                         <div class="price">Rp0.00</div>
                     </div>
                 </div>
@@ -237,13 +231,10 @@
                             data-setbg="{{ asset('frontend/img/product/product-1.jpg') }}">
                             <span class="label">New</span>
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -276,13 +267,10 @@
                         <div class="product__item__pic set-bg"
                             data-setbg="{{ asset('frontend/img/product/product-2.jpg') }}">
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -316,13 +304,10 @@
                             data-setbg="{{ asset('frontend/img/product/product-3.jpg') }}">
                             <span class="label">Sale</span>
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
                                 </li>
                             </ul>
                         </div>
@@ -356,13 +341,10 @@
                         <div class="product__item__pic set-bg"
                             data-setbg="{{ asset('frontend/img/product/product-4.jpg') }}">
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -395,13 +377,10 @@
                         <div class="product__item__pic set-bg"
                             data-setbg="{{ asset('frontend/img/product/product-5.jpg') }}">
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -435,13 +414,10 @@
                             data-setbg="{{ asset('frontend/img/product/product-6.jpg') }}">
                             <span class="label">Sale</span>
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -474,13 +450,10 @@
                         <div class="product__item__pic set-bg"
                             data-setbg="{{ asset('frontend/img/product/product-7.jpg') }}">
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -513,13 +486,10 @@
                         <div class="product__item__pic set-bg"
                             data-setbg="{{ asset('frontend/img/product/product-8.jpg') }}">
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}"
-                                            alt=""></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}"
-                                            alt="">
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/compare.png') }}" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                                            alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="product__item__text">
@@ -739,7 +709,7 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <p>Copyright © Owari.Cloth
                             <script>
-                                document.write(new Date().getFullYear());
+                            document.write(new Date().getFullYear());
                             </script>2021
                             All rights reserved
                             </i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
