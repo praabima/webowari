@@ -47,8 +47,7 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
-                    alt=""></a>
+            <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}" alt=""></a>
             <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
             <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
                 <span>0</span></a>
@@ -115,8 +114,8 @@
                         <a href="#" class="search-switch"><img src="{{ asset('frontend/img/icon/search.png') }}"
                                 alt=""></a>
                         <a href="#"><img src="{{ asset('frontend/img/icon/heart.png') }}" alt=""></a>
-                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}"
-                                alt=""> <span>0</span></a>
+                        <a href="shopping-cart.html"><img src="{{ asset('frontend/img/icon/cart.png') }}" alt="">
+                            <span>0</span></a>
                         <div class="price">Rp0.00</div>
                     </div>
                 </div>
@@ -246,11 +245,7 @@
                             <h6>Piqué Biker Jacket</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp67.24</h5>
                             <div class="product__color__select">
@@ -282,11 +277,7 @@
                             <h6>Piqué Biker Jacket</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp67.24</h5>
                             <div class="product__color__select">
@@ -320,11 +311,7 @@
                             <h6>Multi-pocket Chest Bag</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp43.48</h5>
                             <div class="product__color__select">
@@ -356,11 +343,7 @@
                             <h6>Diagonal Textured Cap</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp60.9</h5>
                             <div class="product__color__select">
@@ -392,11 +375,7 @@
                             <h6>Lether Backpack</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp31.37</h5>
                             <div class="product__color__select">
@@ -429,11 +408,7 @@
                             <h6>Ankle Boots</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp98.49</h5>
                             <div class="product__color__select">
@@ -465,11 +440,7 @@
                             <h6>T-shirt Contrast Pocket</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp49.66</h5>
                             <div class="product__color__select">
@@ -501,11 +472,7 @@
                             <h6>Basic Flowing Scarf</h6>
                             <a href="#" class="add-cart">+ Add To Cart</a>
                             <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
+
                             </div>
                             <h5>Rp26.28</h5>
                             <div class="product__color__select">
@@ -533,7 +500,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="categories__text">
-                        <h2>Clothings Hot <br /> <span>Shoe Collection</span> <br /> Accessories</h2>
+                        <h2>Tshirts Collection<br /> <span>Thumblr Collection</span> <br /> Totebag Colection</h2>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -541,7 +508,7 @@
                         <img src="{{ asset('frontend/img/product-sale.png') }}" alt="">
                         <div class="hot__deal__sticker">
                             <span>Sale Of</span>
-                            <h5>Rp29.99</h5>
+                            <h5>Rp29.999</h5>
                         </div>
                     </div>
                 </div>
@@ -712,12 +679,12 @@
                 <div class="col-lg-12 text-center">
                     <div class="footer__copyright__text">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p>Copyright © Owari.Cloth
+                        <p>Copyright © Owari.Cloth | Official
                             <script>
                             document.write(new Date().getFullYear());
                             </script>2021
                             All rights reserved
-                            </i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </i> by <a href="https://colorlib.com" target="_blank">Owari</a>
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
