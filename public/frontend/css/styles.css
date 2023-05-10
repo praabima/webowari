@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    font
+    
 }
 
 body {
+    
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #fff;
 }
+
 .container {
     position: relative;
     width: 70vw;
@@ -96,7 +98,7 @@ form.sign-up-form {
     color: #000;
 }
 .btn {
-    width: 85px;
+    width: 100px;
     height: 50px;
     border: none;
     border-radius: 25px;
@@ -104,7 +106,7 @@ form.sign-up-form {
     color: #000;
     font-weight: 600;
     margin: 5px 0;
-    text-transform: uppercase;
+    text-transform: none;
     cursor: pointer;
 }
 .btn.sign-in-btn{
@@ -198,7 +200,7 @@ a {
 }
 .container.sign-up-mode .right-panel .image,
 .container.sign-up-mode .right-panel .content {
-    transform: translateX(200%);
+    transform: translateX(300%);
 }
 .container.sign-up-mode .left-panel .image,
 .container.sign-up-mode .left-panel .content {
