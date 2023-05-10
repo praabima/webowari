@@ -11,8 +11,12 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('user.login');
+// });
+
 Route::get('/', function () {
-    return view('user.login');
+    return view('user.blog');
 });
 
 // Route::get('/login', function () {
@@ -22,5 +26,4 @@ Route::get('/', function () {
 // Route::get('/shop', function () {
 //     return view('user.shop');
 // });
-
 
