@@ -16,7 +16,7 @@
 // });
 
 Route::get('/', function () {
-    return view('user.blog');
+    return view('user.index');
 });
 
 // Route::get('/login', function () {
