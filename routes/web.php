@@ -10,14 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::group(['namespace' => 'user'], function () {
+    Route::resource('index', 'IndexController');
+});
 // Route::get('/', function () {
-//     return view('user.login');
+//     return view('user.product');
 // });
 
-Route::get('/', function () {
-    return view('user.product');
-});
+// Route::get('login', function () {
+//     return view('user.product');
+// });
 
 // Route::get('/login', function () {
 //     return view('user.login');
